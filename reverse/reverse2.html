@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Arrays</h2>
+
+<p>The Array.reverse() method reverses the order of the elements in an array.</p>
+
+<p id="demo"></p>
+
+<script>
+const numbers = [3, 2, 4, 1, 5];
+const reversed = numbers.reverse();
+// numbers and reversed are both in reversed order [5, 1, 4, 2, 3]
+document.getElementById("demo").innerHTML = reversed
+reversed[0] = 5;
+console.log(numbers[0]); // 5
+
+</script>
+
+</body>
+</html>
