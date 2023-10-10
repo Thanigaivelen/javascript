@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        
+        .colored-box {
+            width: 200px;
+            height: 200px;
+            background-color: red;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="colored-box"></div>
+
+   
+    <button onclick="changeColor('red')">Red</button>
+    <button onclick="changeColor('blue')">Blue</button>
+    <button onclick="changeColor('green')">Green</button>
+
+    <script>
+       
+        function changeColor(color) {
+            const coloredBox = document.querySelector('.colored-box');
+            coloredBox.style.backgroundColor = color;
+        }
+    </script>
+</body>
+</html>
